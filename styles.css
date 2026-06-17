@@ -1,0 +1,95 @@
+:root {
+  color-scheme: dark;
+  color: #fff;
+  background: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f0c419 0%, #000 50%, #000 100%);
+  text-align: center;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #f0c419;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  max-width: 34rem;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background: #111;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #f0c419;
+  margin-bottom: 1rem;
+}
+
+p,
+ul {
+  font-size: 1.05rem;
+  color: #f3f3f3;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  padding-left: 1rem;
+}
+
+ul li {
+  padding: 1rem;
+  border: 1px solid rgba(240, 196, 25, 0.2);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 0.75rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #000;
+  color: #ddd;
+}
